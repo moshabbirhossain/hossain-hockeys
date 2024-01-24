@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/Hockeys.jpeg" type="image/x-icon">
     <title>Hossain Hockeys</title>
+    <!-- font awesome style -->
+    <script src="https://kit.fontawesome.com/547466c538.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- font-manrope -->
@@ -37,6 +39,38 @@
 </head>
 <body>
     <header class="relative max-w-6xl lg:mx-auto my-4 mx-4 lg:mt-12 lg:mb-24">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </div>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a class="bg-btn-main">Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <h2 class="text-color-black text-4xl font-extrabold">Hockey’s</h2>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 gap-8">
+                        <li><a class="bg-btn-main">Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end gap-6">
+                    <i class="fas fa-search lg:visible invisible"></i>
+                    <a class="btn bg-btn-main">Button</a>
+                </div>
+            </div>
+        </nav>
         <!-- banner section with carousel -->
         <div class="carousel overflow-y-hidden">
             <div id="slide1" class="carousel-item relative w-full">
